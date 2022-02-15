@@ -1,0 +1,270 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'work Sans', sans-serif;
+}
+
+.jon-header .navbar-brand {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.jon-header span {
+    display: inline-block;
+    background: #6278df;
+    color: #fff;
+    height: 43px;
+    width: 40px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 28px;
+    position: relative;
+    top: 3px;
+}
+
+.jon-menu {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* slider section  */
+
+.slider-section {
+    background: url("photo15.jpg") no-repeat center center;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.slider-section::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+.slider-caption h4 {
+    margin-bottom: 35px;
+}
+
+.slider-caption h2 {
+    margin-bottom: 50px;
+    font-size: 46px;
+}
+
+.slider-caption .btn {
+    background: #5ba533;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.slider-caption .form-control {
+    padding: 18px 20px;
+}
+
+
+/* about-section */
+
+.about-section {
+    background: #f7f9ff;
+}
+
+.about-text-left {
+    margin-top: 120px;
+}
+
+.about-text-left .lead {
+    font-size: 25px;
+    line-height: 2.7rem;
+}
+
+
+/* feature-item section */
+
+.feature-item {
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, .9);
+}
+
+.left-img-sec {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+
+.left-text-sec {
+    width: 60%;
+    padding: 25px;
+}
+
+.left-img-sec img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -25px;
+}
+
+
+/* protfolio section */
+
+.portfolio-item a {
+    position: relative;
+    display: block;
+}
+
+.portfolio-item a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(98, 120, 223, .9);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.9s;
+}
+
+.portfolio-item:hover a::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+.min-section-bg {
+    background-color: #f7f9ff;
+}
+
+
+/* pricing-section  */
+
+.pricing-item {
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, .2);
+}
+
+.pricing-item ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 45px;
+    border-radius: 5px;
+}
+
+.pricing-item ul li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #777;
+}
+
+.pricing-item ul li span {
+    color: #657be0;
+    font-size: 25px;
+    font-weight: bold;
+    width: 40px;
+    display: inline-block;
+}
+
+.pricing-item-button a {
+    background-color: #657be0;
+    border-width: 2px;
+    color: #fff;
+    padding: 14px 30px;
+    font-size: 22px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, .2);
+}
+
+
+/* testimonial section */
+
+.author-info {
+    width: 220px;
+    margin: auto;
+}
+
+.author-info img {
+    width: 85px;
+    margin-right: 18px;
+}
+
+.user-details {
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+
+/* .about-section */
+
+.about-item {
+    margin-top: 90px;
+}
+
+.about-item .card img {
+    width: 120px;
+    height: auto;
+    margin-top: -70px;
+    margin-left: 15px;
+}
+
+
+/* contruct section */
+
+.contnt-from-div .card {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, .5);
+    padding: 40px;
+}
+
+.contnt-from-div .card-body {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, .3);
+    padding: 40px;
+}
+
+
+/* app section */
+
+.default-btn {
+    color: #065f19;
+    padding: 20px 30px;
+    background: #fff;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    transition: .9s;
+    text-decoration: none;
+    border: 2px solid #065f19;
+}
+
+.default-btn:hover {
+    background: #065f19;
+    color: #fff;
+}
+
+.banner-bottom {
+    background-color: #f7f9ff;
+    padding: 100px o;
+    margin-top: 75px;
+}
+
+.main1 {
+    opacity: .91;
+}

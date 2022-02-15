@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+}
+
+h2 {
+    width: 200px;
+    height: 70px;
+    margin-left: 62px;
+    margin-top: 27px;
+}
+
+.logo {
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+ul li {
+    list-style: none;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .5s ease-in-out;
+}
+
+ul li a:hover {
+    color: #ff7200;
+}
+
+.search {
+    width: 330px;
+}
+
+.srch {
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    margin-top: 30px;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    color: #fff;
+    margin-top: 30px;
+    font-size: 16px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.srch:focus {
+    outline: none;
+}
+
+.content {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .per {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1 {
+    font-size: 50px;
+    margin-top: 9%;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+
+.content .cn {
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin: 15px 0;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.content .cn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.content .cn:hover {
+    background-color: antiquewhite;
+}
+
+.content span {
+    color: #ff7200;
+    font-size: 60px;
+}
+
+.from {
+    width: 300px;
+    height: 400px;
+    background-color: #f9484a;
+    background-image: linear-gradient(315deg, #f9484a 0%, #fbd72b 74%);
+    position: absolute;
+    top: 200px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.from h2 {
+    width: 220px;
+    font-family: "Helvetica Neue";
+    text-align: center;
+    color: #ff7200;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.from input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 30px;
+    font-family: serif;
+}
+
+.from input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #fff;
+    font-family: serif;
+}
+
+.btnn {
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.btnn:hover {
+    background: #fff;
+    color: #ff7200;
+}
+
+.btnn a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.from .link a {
+    text-decoration: none;
+    color: #ff7200;
+}
+
+.liw {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.from .link {
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .main {
+        width: 100%;
+        height: 240vh;
+    }
+    .navbar {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        justify-content: center;
+    }
+    ul {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    ul li {
+        background-color: #ff7200;
+        height: 40px;
+        width: 90%;
+        padding: 10px 0;
+        text-align: center;
+        border-radius: 15px;
+    }
+    .srch {
+        width: 50%;
+        height: 40px;
+    }
+    .btn {
+        width: 40%;
+        height: 40px;
+    }
+    .content h1 {
+        margin-left: 7%;
+    }
+    .content p {
+        margin-left: 8%;
+    }
+    .content .cn {
+        margin-left: 14%;
+        width: 250px;
+    }
+    .from {
+        top: 150%;
+        left: 25%;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    #calculater {
+        align-items: center;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (max-width: 768px) {
+    .main {
+        width: 100%;
+        height: 240vh;
+    }
+    .navbar {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        justify-content: center;
+    }
+    ul {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    ul li {
+        background-color: #ff7200;
+        height: 40px;
+        width: 90%;
+        padding: 10px 0;
+        text-align: center;
+        border-radius: 15px;
+    }
+    .srch {
+        width: 50%;
+        height: 40px;
+    }
+    .btn {
+        width: 40%;
+        height: 40px;
+    }
+    .content h1 {
+        margin-left: 13%;
+    }
+    .content p {
+        margin-left: 14%;
+    }
+    .content .cn {
+        margin-left: 17%;
+        width: 250px;
+    }
+    .from {
+        top: 150%;
+        left: 25%;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    #calculater {
+        align-items: center;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    #calculater {
+        align-items: center;
+    }
+}

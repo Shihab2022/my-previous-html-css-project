@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+    height: 750px;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    margin: 5px auto;
+    align-items: center;
+}
+
+#calculater {
+    width: 320px;
+    height: 550px;
+    background-color: #eaedef;
+    margin: 0 auto;
+    top: 80px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 2px 30px rgba(7, 3, 238, 0.7);
+}
+
+#result {
+    height: 120px;
+}
+
+#history {
+    text-align: right;
+    height: 20px;
+    /* margin: 0 20px; */
+    padding-top: 20px;
+    font-size: 15px;
+    color: #919191;
+}
+
+#output {
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+
+#keyboard {
+    height: 400px;
+}
+
+.operater,
+.number,
+.empty {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .5s;
+}
+
+.operater:hover {
+    background-color: #20b2aa;
+    color: white;
+    font-size: 16px;
+}
+
+.number:hover {
+    background-color: #a88cdb;
+    color: white;
+    font-size: 18px;
+}
+
+.number,
+.operater {
+    cursor: pointer;
+}
+
+.operater:active,
+.number:active {
+    font-size: 13px;
+}
+
+.operater:focus,
+.number:focus,
+.empty:focus {
+    outline: 0;
+}
+
+button:nth-child(4) {
+    font-size: 20px;
+    background-color: #20b2aa;
+}
+
+button:nth-child(8) {
+    font-size: 20px;
+    background-color: #ffa500;
+}
+
+button:nth-child(12) {
+    font-size: 20px;
+    background-color: #f08080;
+}
+
+button:nth-child(16) {
+    font-size: 20px;
+    background-color: #7d93e0;
+}
+
+button:nth-child(20) {
+    font-size: 20px;
+    background-color: #9477af;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    #calculater {
+        align-items: center;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    #calculater {
+        align-items: center;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    #calculater {
+        align-items: center;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    #calculater {
+        align-items: center;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    #calculater {
+        align-items: center;
+    }
+}

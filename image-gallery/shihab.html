@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shihab.css">
+    <title>Image grid</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Image Grit</h1>
+        <p>Click on button to change the grid view.</p>
+    </div>
+
+    <div class="botton">
+        <button class="btn" onclick="full()">COLUM 1</button>
+        <button class="btn" onclick="towcolumn()">COLUM 2</button>
+        <button class="btn one" onclick="fourcolumn()">COLUM 4</button>
+    </div>
+
+    <br>
+    <div class="row">
+        <div id="colum1">
+            <img src="photo (98).jpg" alt="">
+            <img src="photo (78).jpg" alt="">
+            <img src="photo (80).jpg" alt="">
+            <img src="photo (81).jpg" alt="">
+            <img src="photo (82).jpg" alt="">
+            <img src="photo (83).jpg" alt="">
+            <img src="photo (88).jpg" alt="">
+            <img src="photo (93).jpg" alt="">
+            <img src="photo (98).jpg" alt="">
+            <img src="photo (100).jpg" alt="">
+            <img src="photo (110).jpg" alt="">
+            <img src="photo (161).jpg" alt="">
+            <img src="photo (172).jpg" alt="">
+            <img src="photo (186).jpg" alt="">
+            <img src="photo (191).jpg" alt="">
+        </div>
+
+        <div id="colum2">
+            <img src="p2.jpg" alt="">
+            <img src="p3.jpg" alt="">
+            <img src="p4jpg" alt="">
+            <img src="p5.jpg" alt="">
+            <img src="p6.jpg " alt=" ">
+            <img src="photo (101).jpg " alt=" ">
+            <img src="p7.jpg " alt=" ">
+            <img src="photo (172).jpg " alt=" ">
+            <img src="photo (82).jpg " alt=" ">
+            <img src="p10.jpg " alt=" ">
+            <img src="p1.jpg " alt=" ">
+            <img src="photo (93).jpg " alt=" ">
+            <img src="p9.jpg " alt=" ">
+            <img src="photo (100).jpg " alt=" ">
+
+
+
+        </div>
+
+        <div id="colum3">
+            <img src="photo (110).jpg" alt="">
+
+            <img src="photo (98).jpg " alt=" ">
+            <img src="p8.jpg " alt=" ">
+            <img src="photo (80).jpg" alt="">
+            <img src="photo (81).jpg" alt="">
+            <img src="p9.jpg" alt="">
+            <img src="photo (83).jpg" alt="">
+            <img src="photo (88).jpg" alt="">
+            <img src="p12.jpg" alt="">
+            <img src="photo (98).jpg" alt="">
+
+            <img src="photo (100).jpg" alt="">
+
+            <img src="p5.jpg" alt="">
+            <img src="photo (161).jpg" alt="">
+
+
+        </div>
+        <div id="colum4">
+
+            <img src="photo (186).jpg" alt="">
+            <img src="photo (191).jpg" alt="">
+            <img src="photo (81).jpg" alt="">
+            <img src="photo (110).jpg" alt="">
+            <img src="photo (161).jpg" alt="">
+            <img src="photo (82).jpg" alt="">
+            <img src="photo (83).jpg" alt="">
+            <img src="photo (88).jpg" alt="">
+            <img src="photo (93).jpg" alt="">
+            <img src="photo (98).jpg" alt="">
+            <img src="photo (98).jpg" alt="">
+            <img src="photo (100).jpg" alt="">
+
+            <img src="p6.jpg" alt="">
+            <img src="photo (78).jpg" alt="">
+            <img src="photo (80).jpg" alt="">
+
+        </div>
+
+    </div>
+
+
+    <script>
+        function full() {
+            document.getElementById('colum1').style.width = '100%';
+            document.getElementById('colum2').style.width = '100%';
+            document.getElementById('colum3').style.width = '100%';
+            document.getElementById('colum4').style.width = '100%';
+
+        }
+
+        function towcolumn() {
+            document.getElementById('colum1').style.width = '50%';
+            document.getElementById('colum2').style.width = '50%';
+            document.getElementById('colum3').style.width = '50%';
+            document.getElementById('colum4').style.width = '50%';
+
+        }
+
+        function fourcolumn() {
+            document.getElementById('colum1').style.width = '25%';
+            document.getElementById('colum2').style.width = '25%';
+            document.getElementById('colum3').style.width = '25%';
+            document.getElementById('colum4').style.width = '25%';
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
